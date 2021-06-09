@@ -1,0 +1,5 @@
+tensorflow==2.5.0
+numpy==1.19.5
+fastapi==0.65.1
+uvicorn==0.14.0
+wavio==0.0.4
