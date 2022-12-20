@@ -25,3 +25,10 @@ Simple FastAPI app to server Dhivehi.ai pretrained TTS models.
 
 ## How to use
 Send a ```GET``` request to ```http://localhost:8000/predict/?text=ހެލޯ ދިވެހި&voice=female&speed=0.9``` 
+
+## Running on Docker
+There's a simple `Dockerfile` included to setup a quick deployment for testing
+to use,
+
+ 1. 'docker build --tag tts-dv .'
+ 2. 'docker run -it --rm -p 8000:8000 tts-dv'
